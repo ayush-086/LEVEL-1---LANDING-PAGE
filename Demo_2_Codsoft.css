@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+#wrapper{
+    overflow-x: hidden;
+    overflow-y: auto;
+
+}
+
+.container{
+    width: 65em;
+    margin: auto;
+    background-color: antiquewhite;
+    border: 2px solid grey;
+    height: 100rem;
+    position: relative;
+}
+.top_navbar{
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+background-color: rgba(205, 145, 34, 0.547);
+flex-shrink: 3;
+}
+.icons_navbar_first{
+    display: flex;
+    list-style: none;
+    height: 4em;
+   
+    margin: 0;
+    align-items: center;
+    
+}
+.icons_navbar_first .icons_navbar1{
+    border: 1.5px solid white;
+    height: 4em;
+    padding: 1.3em .5em 0 .5em;
+    border-top: none;
+    border-bottom: none;
+}
+.icons_navbar_first .icons_navbar1 a i{
+    text-decoration: none;
+    text-transform: none;
+    transform: scale(1.2);
+    color: black;
+}
+.icons_navbar_second .icons_navbar2{
+    transform: scale(1.1);
+}
+
+.icons_navbar_second .icons_navbar2 a{
+    text-decoration: none;
+    color: rgb(37, 14, 14);
+    
+}
+
+.icons_navbar li{
+    padding: 0 0.5em;
+    
+}
+.icons_navbar_second{
+    display: flex;
+    padding: .2em;
+    height: 4em;
+    
+    margin: 0;
+    align-items: center;
+    line-height: 2em;
+    column-gap: 0.5em;
+    
+}
+.icons_navbar_second .icons_navbar2{
+    list-style: none;
+}
+.icons_navbar_third{
+    display: flex;
+    list-style: none;
+    padding: .2em;
+    height: 4em;
+    margin: 0;
+    align-items: center;
+    list-style: none;
+    line-height: 2em;
+    
+    font: 100 1rem cursive;
+}
+.icons_navbar_third .icons_navbar3{
+    border: 2px solid white;
+    border-radius: 1em;
+    cursor: pointer;
+}
+
+.second_navbar{
+    display: flex;
+    justify-content: space-between;
+align-items: center;
+width: 100%;
+background-color: rgb(246, 249, 230);
+height: 4rem;
+flex-shrink: 3;
+position: relative;
+}
+
+.title_navbar_first {
+    display: flex;
+    padding: 0 .2em;
+    height: 100%;
+    margin: 0;
+    align-items: center;
+    column-gap: 1em;
+    list-style: none;
+    
+}
+
+.title_navbar_first .title_navbar_text a{
+    text-decoration: none;
+    list-style: none;
+    text-transform: none;
+    color: black;
+    font: 500 1rem monospace;
+}
+
+
+.title_navbar_third{
+    display: flex;
+    margin: 0;
+    align-items: center;
+    column-gap: 1em;
+    list-style: none;
+    justify-content: space-between;
+    list-style: none;
+    height: 100%;
+}
+
+
+.title_navbar_second{
+    display: flex;
+    column-gap: 0.5em;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}   
+
+.title_navbar_second a{
+    text-decoration: none;
+    color: black;
+    font-family: "Outfit", sans-serif;
+}
+
+.title_navbar_second .title_navbar2{
+    height: 100%;
+    height: 4em;
+    padding: 1.2em 0.2em 0 0.2em ;
+    flex-shrink: 4;
+}
+
+.title_navbar_second .title_navbar2:hover{
+    border-radius: 0.2em;
+    background-color: rgb(246, 156, 72);
+    transition: 0.3s all ease-in-out;
+}
+
+.title_navbar_second .title_navbar2_buy{
+    background-color:rgb(246, 156, 72) ;
+}
+
+.title_navbar_third{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.title_navbar_third a i{
+    color: white;
+    background-color: black;
+    height: 4em;
+    padding: 1.2em .625em 0 .625em;
+}
+
+.title_navbar_third .title_navbar{
+    height: 4em;
+    background-color: black;
+}
+
+
+.second_container{
+    background: url(../Demo_2_Codsoft/Images/happy-middle-aged-business-man-600nw-2306186897.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    width: 100%;
+    height: 30rem;
+    padding: 8em 8em 0 8em ;
+}
+
+.hero_content{
+    color: rgb(59, 4, 4);
+    border-width: 0 0 0 5px;
+    border-style: solid;
+    border-image: linear-gradient(to bottom, rgb(217, 56, 83), rgb(249, 176, 42) ) 1 100%;
+    /* border-image: linear-gradient(to bottom, rgb(217, 56, 83), rgb(249, 176, 42) ) 1 100%;
+    border-image: linear-gradient(to bottom, rgb(217, 56, 83), rgb(249, 176, 42) ) 1 100%; */
+    padding: 1em;
+}
+
+.hero_creative{
+    color: rgb(59, 4, 4);
+    font-weight: 200;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hero_digitalAgency{
+    font-family: monospace;
+    font: bold;
+}
+
+span{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#read_more, .option{
+    border: 2px solid white;
+    border-radius: 1em;
+    padding: .5em;
+    display: inline-block;
+    background-image: linear-gradient(to right, orange, rgb(199, 7, 7));
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transition: all 0.1s ease-in-out;
+    
+}
+#consult{
+    background: none;
+    border-color: black;
+}
+
+#read_more:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.paragraph_business{
+    padding: 2em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.only{
+    font: 200;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline-block;
+    display: flex;
+    justify-content: center;    
+    column-gap: 1em;
+    padding:  0 0  2em 0;
+
+}
+/* 
+.launch_business {
+    
+}
+.support_team {
+
+}
+.team_management{
+
+} */
+
+.about{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 100%;
+    align-items: top;
+    justify-content: center;
+    padding: 3em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.men_logo{
+    height: 20em;
+    background-color: antiquewhite;
+    padding: 0 3em 0 0 ;
+}
